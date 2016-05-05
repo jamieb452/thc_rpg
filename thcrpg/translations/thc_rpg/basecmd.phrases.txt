@@ -1,0 +1,302 @@
+﻿"Phrases"
+{
+	// **********************************
+	//       Base Command Defaults
+	// **********************************
+
+	// {1}: PROJECT_FULLNAME
+	// {2}: PROJECT_BASE_CMD
+	"BaseCmd server syntax"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} Menu:\nUsage: {2} <command> [arguments]"
+		"no"		"{1}-meny:\nSyntaks: {2} <kommando> [parametere]"
+	}
+
+	"BaseCmd server credits description"
+	{
+		"en"		"Display credits listing"
+		"no"		"Vis liste over medvirkende"
+	}
+
+	"BaseCmd server dumpcmdtree description"
+	{
+		"en"		"Dumps all sub-commands to file"
+		"no"		"Dumper alle underkommandoer til en fil"
+	}
+
+	// {1}: PROJECT_BASE_CMD
+	"BaseCmd dumpcmdtree syntax"
+	{
+		"#format"	"{1:s}"
+		"en"		"Usage: {1} dumpcmdtree <file>"
+		"no"		"Syntaks: {1} dumpcmdtree <fil>"
+	}
+
+	"BaseCmd server modules description"
+	{
+		"en"		"Manage modules"
+		"no"		"Behandle moduler"
+	}
+
+	"BaseCmd server version description"
+	{
+		"en"		"Display version information"
+		"no"		"Vis versjonsinformasjon"
+	}
+
+	"BaseCmd server config description"
+	{
+		"en"		"Manage configs"
+		"no"		"Behandle konfigurasjoner"
+	}
+
+	"BaseCmd server log description"
+	{
+		"en"		"Manage log settings"
+		"no"		"Behandle logginstillinger"
+	}
+
+	// {1}: PROJECT_FULLNAME
+	"BaseCmd server modules syntax"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Modules Menu:"
+		"no"		"{1} Modulmeny:"
+	}
+
+	"BaseCmd server modules enable description"
+	{
+		"en"		"Enable a module"
+		"no"		"Aktiver en modul"
+	}
+
+	"BaseCmd server modules disable description"
+	{
+		"en"		"Disable a module"
+		"no"		"Deaktiver en modul"
+	}
+
+	"BaseCmd server modules disable_all description"
+	{
+		"en"		"Disable all enabled modules"
+		"no"		"Deaktiver alle aktive moduler"
+	}
+
+	"BaseCmd server modules info description"
+	{
+		"en"		"Information about a module"
+		"no"		"Informasjon om en modul"
+	}
+
+	"BaseCmd server modules list description"
+	{
+		"en"		"Show registered modules"
+		"no"		"Vis registrerte moduler"
+	}
+
+	"BaseCmd server modules refresh description"
+	{
+		"en"		"Reloads/refreshes all registered modules in the plugin"
+		"no"		"Oppdaterer alle registrerte moduler"
+	}
+
+	"BaseCmd server modules reload description"
+	{
+		"en"		"Reloads a module"
+		"no"		"Laster om en modul"
+	}
+
+	// {1}: PROJECT_FULLNAME
+	"BaseCmd server config syntax"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Config Menu:"
+		"no"		"{1} Konfigurasjonsmeny:"
+	}
+
+	"BaseCmd server config reload description"
+	{
+		"en"		"Reloads a module's configs"
+		"no"		"Laster om en moduls konfigurasjoner"
+	}
+
+	"BaseCmd server config reload_all description"
+	{
+		"en"		"Reloads all modules' configs"
+		"no"		"Laster om alle modulers konfigurasjoner"
+	}
+
+	// {1}: PROJECT_FULLNAME
+	"BaseCmd server log syntax"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} Log Settings Menu:"
+		"no"		"{1} Logginstillingsmeny:"
+	}
+
+	"BaseCmd server log whitelist_add description"
+	{
+		"en"		"Add a module to the whitelist"
+		"no"		"Legg til en modul til tillatelseslisten"
+	}
+
+	
+	"BaseCmd server log whitelist_rem description"
+	{
+		"en"		"Remove a module from the whitelist"
+		"no"		"Fjern en modul fra tillatelseslisten"
+	}
+
+	// {1}: PROJECT_FULLNAME
+	// {2}: PROJECT_BASE_CMD
+	"BaseCmd client syntax"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} Menu:\nUsage: {2} <command> [arguments...]"
+		"no"		"{1}-meny:\nSyntaks: {2} <kommando> [parametere...]"
+	}
+
+	"BaseCmd client credits description"
+	{
+		"en"		"Display credits listing"
+		"no"		"Vis liste over medvirkende"
+	}
+
+	"BaseCmd client modules description"
+	{
+		"en"		"Manage module"
+		"no"		"Behandle modul"
+	}
+
+	"BaseCmd client version description"
+	{
+		"en"		"Display version information"
+		"no"		"Vis versjonsinformasjon"
+	}
+
+
+	// **********************************
+	//          Module Manager
+	// **********************************
+
+	// Command: PROJECT_BASE_CMD (Defined in project.inc)
+
+	// {1}: PROJECT_BASE_CMD
+	// {2}: sub-command accessor.
+	// {3}: sub-command with required argument.
+	"ModuleMgr modules sub-command syntax"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Usage: {1} {2} {3} <# or short module name>"
+		"no"		"Syntaks: {1} {2} {3} <# eller kort modulnavn>"
+	}	
+
+	"ModuleMgr modules disable_all"
+	{
+		"en"		"All modules have been disabled."
+		"no"		"Alle moduler har blitt deaktivert."
+	}
+
+	// {1}: the full name of the module.
+	// {2}: the short name of the module.
+	// {3}: the description of the module.
+	// {4}: yes if the module is enabled, no if not.
+	"ModuleMgr modules info"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}"
+		"en"		"  Module Name: {1}\n  Short Name: {2}\n  Description: {3}\n  Enabled: {4}"
+		"no"		"  Modulname: {1}\n  Kort navn: {2}\n  Beskrivelse: {3}\n  Aktivert: {4}"
+	}
+
+	// {1}: the full name of the module.
+	// {2}: enabled/disabled.
+	// {3}: the short name of the module.
+	"ModuleMgr modules list"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"\"{1}\" ({2}) aka {3}"
+		"no"		"\"{1}\" ({2}) ({3})"
+	}
+
+	"ModuleMgr modules list client"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"\"{1}\" - {2}"
+		"no"		"\"{1}\" - {2}"
+	}
+
+	"ModuleMgr modules list hidden"
+	{
+		"en"		"<Hidden>"
+		"no"		"<Skjult>"
+	}
+
+	"ModuleMgr modules refresh"
+	{
+		"en"		"All modules have been refreshed."
+		"no"		"Alle moduler har blitt oppdatert."
+	}
+
+	// {1}: the reloaded module's fullname.
+	"ModuleMgr modules reload"
+	{
+		"#format"	"{1:s}"
+		"en"		"Reloaded module: \"{1}\""
+		"no"		"Lastet om modul: \"{1}\""
+	}
+
+
+	// **********************************
+	//           Event Manager
+	// **********************************
+
+	// Command: PROJECT_BASE_CMD
+
+	// {1}: list of the module's registered events.
+	"EventMgr modules info"
+	{
+		"#format"	"{1:s}"
+		"en"		"  Currently Registered Event Listeners: {1}"
+		"no"		"  Registrerte hendelseslyttere: {1}"
+	}
+
+
+	// **********************************
+	//           Config Manager
+	// **********************************
+
+	// Command: PROJECT_BASE_CMD
+
+	// {1}: list of the module's registered config files.
+	"ConfigMgr modules info"
+	{
+		"#format"	"{1:s}"
+		"en"		"  Currently Registered Config Files: {1}"
+		"no"		"  Registrerte konfigurasjonsfiler: {1}"
+	}
+
+
+	// **********************************
+	//       Translations Manager
+	// **********************************
+
+	// Command: PROJECT_BASE_CMD
+
+
+	// **********************************
+	//            Log Manager
+	// **********************************
+
+	// Command: PROJECT_BASE_CMD
+
+	// {1}: yes if the module is on the whitelist, no if not.
+	// {2}: PROJECT_CVAR_PREFIX
+	"LogMgr modules info"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"  On Log Whitelist: {1} (see cvar {2}_log_whitelist)"
+		"no"		"  I logg-tillatelsesliste: {1} (se cvar {2}_log_whitelist)"
+	}
+
+}

@@ -1,0 +1,514 @@
+// [THC RPG] Translation File
+//
+"Phrases"
+{
+  // {1} = Player leveling up
+  // {2} = New level of player
+  "Announce levelup"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "{green}{1} {default}is now level {green}{2}{default}"
+    "de" "{green}{1} {default}ist jetzt Level {green}{2}{default}"
+    "fr" "{green}{1} {default}est maintenant au niveau {green}{2}{default}"
+    "no" "{green}{1} {default}er nå nivå {green}{2}{default}"
+    "se" "{green}{1} {default}är nu nivå {green}{2}{default}"
+    "tr" "{green}{1} {default}su an seviye {green}{2}{default}"
+    "hu" "{green}{1} {default}elérte a {green}{2}{default} szintet"
+    "pl" "{green}{1} {default} awansował na poziom {green}{2}{default}"
+    "ru" "{green}{1} {default}получил {green}{2}{default} уровень"
+    "dk" "{green}{1} {default}er nu level {green}{2}{default}"
+    "nl" "{green}{1} {default}is nu level {green}{2}{default}"
+    "lv" "{green}{1} {default}tagad ir līmenis {green}{2}{default}"
+  }
+  // {1} = New level of player
+  "Tell player levelup"
+  {
+    "#format" "{1:d}"
+    "en" "You are now level {green}{1}{default}"
+    "de" "Du bist jetzt Level {green}{1}{default}"
+    "fr" "Vous etes maintenant au niveau {green}{1}{default}"
+    "no" "Du er nå nivå {green}{1}{default}"
+    "se" "Du är nu nivå {green}{1}{default}"
+    "tr" "Su an seviyeniz {green}{1}{default}"
+    "hu" "Most lettél {green}{1}{default} szintű"
+    "pl" "Awansowałeś na poziom {green}{1}{default}"
+    "ru" "Вы получили {green}{1}{default} уровень"
+    "dk" "Du er nu level {green}{1}{default}"
+    "nl" "Je bent nu level {green}{1}{default}"
+    "lv" "Tev tagad ir Līmenis {green}{1}{default}"
+  }
+  // {1} New amount of credits
+  "Notify credits"
+  {
+    "#format" "{1:d}"
+    "en" "You have new credits {green}({1} {default}total{green}). {default}Type {green}rpgmenu{default} to buy upgrades"
+    "de" "Du hast neue Credits {green}({1} {default}insgesamt{green}). {default}Tippe {green}rpgmenu{default} um Upgrades zu erwerben"
+    "fr" "Vous avez des nouveaux credits {green}({1} {default}total{green}). {default}Type {green}rpgmenu{default} pour acheter des pouvoirs"
+    "no" "Du har fått kreditt {green}({1} {default}totalt{green}). {default}Skriv {green}rpgmenu{default} for å kjøpe oppgraderinger."
+    "se" "Du har nya krediter {green}({1} {default}total{green}). {default}Skriv {green}rpgmenu{default} for att kopa nya upgradear"
+    "tr" "Yeni krediniz mevcut {green}({default}Toplam {green}{1}). {default}Yukseltmeler almak icin {green}rpgmenu{default} yazin"
+    "hu" "Új pontokat kaptál {green}({default}összesen: {green}{1}{green}). {default}Írd be az {green}rpgmenu{default}-t, hogy előhozd a menüt ahol tudsz fejelsztéseket venni."
+    "pl" "Otrzymałeś nowe kredyty {green}({1} {default}w sumie{green}). {default}Wpisz {green}rpgmenu{default} żeby kupić dodatki"
+    "ru" "Вы получили кредиты {green}({1} {default}всего{green}). {default}Пропиши {green}rpgmenu{default} для прокачки"
+    "dk" "Du har nye faet kreditter {green}({1} {default}i alt{green}). {default}skriv {green}rpgmenu{default} for at købe opgraderinger"
+    "nl" "Je hebt nieuwe credits {green}({1} {default}totaal{green}). {default}Type {green}rpgmenu{default} om upgrades te kopen"
+    "lv" "Tev tagad ir jauni kredīti {green}({1} {default}kopā{green}). {default}Raksti {green}rpgmenu{default}, lai nopirktu uzlabojumus"
+  }
+  // (Nothing)
+  "Reset stats"
+  {
+    "en" "Your stats have been successfully reset"
+    "de" "Deine Stats wurden erfolgreich resettet"
+    "fr" "Vos stats ont ete remise a zero"
+    "no" "Din statistikk er nå blitt tilbakestilt"
+    "se" "Dina stats har nollstallts"
+    "tr" "Durumunuz basariyla sifirlandi"
+    "hu" "A potnjaid sikeresen újra lettek indítva!"
+    "pl" "Twój status został pomyślnie zresetowany"
+    "ru" "Ваша статистика была успешна обнулена"
+    "dk" "Din stat er blevet nulstillet"
+    "nl" "Je statistieken zijn succesvol ge-reset"
+    "lv" "Tavi stati tika veiksmīgi anulēti"
+  }
+  // {1} Player's rank
+  // {2} Level
+  // {3} XP
+  // {4} Credits
+  "Your Player rank"
+  {
+    "#format" "{1:d},{2:d},{3:d},{4:d}"
+    "en" "You are ranked {green}{1} {default}at level {green}{2}, {default}with {green}{3} {default}XP, and {green}{4} {default}credits"
+    "de" "Du bist auf Platz {green}{1} {default}mit Level {green}{2}{default}, {green}{3} {default}XP und hast {green}{4} {default}Credits"
+    "fr" "Vous êtes classé {green}{1} {default}au niveau {green}{2}, {default}avec {green}{3} {default}XP, et {green}{4} {default}crédits"
+    "no" "Du er rangert {green}{1} {default}på nivå {green}{2}, {default}med {green}{3} {default}XP, og {green}{4} {default}i kreditt"
+    "se" "Du är rankad {green}{1} {default}på nivå {green}{2}, {default}med {green}{3} {default}XP, och {green}{4} {default}kredit"
+    "tr" "Sen sıralanır {green}{1} {default}düzeyinde {green}{2}, {default}ile {green}{3} {default}XP, ve {green}{4} {default}kredisi"
+    "hu" "Rangsorolva vagy, rangod: {green}{1}{default} ezen a szinten: {green}{2}, {default}{green}{3} {default}tapasztalati ponttal és {green}{4} {default}ponttal"
+    "pl" "Jesteś {green}{1}{default} w rankingu z poziomem {green}{2}{default}, masz {green}{3}{default} punktów doświadczenia i {green}{4}{default} kredytów"
+    "ru" "Ваша позиция {green}{1} {default}, на уровне {green}{2}, {default}с {green}{3} {default}XP, и {green}{4} {default}кредитами"
+    "dk" "Du ligger rank {green}{1} {default}på level {green}{2}, {default}med {green}{3} {default}xp, og {green}{4} {default}krediter"
+    "nl" "Je bent nu rang {green}{1} {default}op level {green}{2}, {default}met {green}{3} {default}XP, en {green}{4} {default}credits "
+    "lv" "Tu esi rangā {green}{1} {default}ar līmeni {green}{2}, {default}un {green}{3} {default}XP, un ar {green}{4} {default}kredītiem"
+  }
+  // {1} Player's name
+  // {2} Player's rank
+  // {3} Level
+  // {4} XP
+  // {5} Credits
+  "Other Players rank"
+  {
+    "#format" "{1:s},{2:d},{3:d},{4:d},{5:d}"
+    "en" "{green}{1} {default}is ranked {green}{2} {default}at level {green}{3}, {default}with {green}{4} {default}XP, and {green}{5} {default}credits"
+    "de" "{green}{1} {default}ist auf Platz {green}{2} {default}mit Level {green}{3}{default}, {green}{4} {default}XP, und hat {green}{5} {default}credits"
+    "fr" "{green}{1} {default}est classé {green}{2} {default}au niveau {green}{3}, {default}avec {green}{4} {default}XP, et {green}{5} {default}crédits"
+    "no" "{green}{1} {default} er rangert {green}{2} {default}på nivå {green}{3}, {default}med {green}{4} {default}XP, og {green}{5} {default}kreditt"
+    "se" "{green}{1} {default}rankas {green}{2} {default}på nivå {green}{3}, {default}med {green}{4} {default}XP, och {green}{5} {default}kredit"
+    "tr" "{green}{1} {default}sıralandığını {green}{2} {default}düzeyinde {green}{3}, {default}ile {green}{4} {default}XP, ve {green}{5} {default}kredisi"
+    "hu" "{green}{1} {default}rangsorolva van, rangja: {green}{2}{default}, {green}{3} szintű, {green}{4} {default}tapasztali ponttal és {green}{5} {default}ponttal"
+    "pl" "{green}{1} {default} jest {green}{2}{default} w rankingu z poziomem {green}{3}{default}, ma {green}{4}{default} punktów doświadczenia i {green}{5}{default} kredytów"
+    "ru" "{green}{1} {default}в позиции {green}{2} {default}, уровень {green}{3}, {default}с {green}{4} {default}XP, и {green}{5} {default}кредитами"
+    "dk" "{green}{1} {default}er rank {green}{2} {default}på level {green}{3}, {default}med {green}{4} {default}xp, og {green}{5} {default}krediter"
+    "nl" "{green}{1} {default}is rang {green}{2} {default}op level {green}{3}, {default}met {green}{4} {default}XP, en {green}{5} {default}credits"
+    "lv" "{green}{1} {default}ir rangā {green}{2} {default}ar līmeni {green}{3}, {default}ar {green}{4} {default}XP un ar {green}{5} {default}kredītiem"
+  }
+  // (Nothing)
+  "Stats are disabled"
+  {
+    "en" "Stats are disabled"
+    "de" "Statistik ist deaktiviert"
+    "fr" "Stats sont désactivées"
+    "no" "Statistikk er deaktivert"
+    "se" "Stats är inaktiverade"
+    "tr" "İstatistikler devre dışı bırakılır"
+    "hu" "A statisztikák nincsenek engedélyezve"
+    "pl" "Statystyka została wyłączona"
+    "ru" "Статистика отключена"
+    "dk" "statisik er slået fra"
+    "nl" "Statistieken zijn uitgeschakelt"
+    "lv" "Stati ir atslēgti"
+  }
+  // {1} = Name of the bot whose stats are being reset
+  // {2} = Max level that bots can get to
+  "Bot reset stats"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "BOT: {green}{1}'s {default}stats were reset for reaching the maximum level: {green}{2}{default}"
+    "de" "BOT: {green}{1}'s {default}stats wurden resettet da das maximale Level erreicht wurde: {green}{2}{default}"
+    "fr" "BOT: {green}{1}'s {default}stats sont remise a zero pour le niveau maximum: {green}{2}{default}"
+    "no" "BOT: {green}{1}'s {default}statistikk ble tibakestilt fordi den kom til maxlevelen: {green}{2}{default}"
+    "se" "BOT: {green}{1}'s {default}stats har nollstallts efter att ha natt hogsta nivan: {green}{2}{default}"
+    "tr" "BOT: {green}{1}'s {default}adli oyuncunun durumu en yuksek seviyeye ulastigi icin sifirlandi: {green}{2}{default}"
+    "hu" "BOT: {green}{1}'s {default}nullázva lett, mert elérte a maximális szintet: {green}{2}{default}"
+    "pl" "BOT: Status {green}{1}'s {default}, został zresetowany z powodu osiągnięcia maksymalnego poziomu: {green}{2}{default}"
+    "ru" "BOT: Статистика {green}{1}'s {default} была обнулена за достижение максимума: {green}{2}{default}"
+    "dk" "BOT: {green}{1}'s {default}statistik er blevet nulstillet fordi er blevet maximum level: {green}{2}{default}"
+    "nl" "BOT: {green}{1}'s {default}statistieken zijn ge-reset omdat  het maximum level is bereikt {green}{2}{default}"
+    "lv" "BOT: Spēlētāja {green}{1} {default}stati tika anulēti, jo tika sasniegts masimālais līmenis: {green}{2}{default}"
+  }
+  // {1} = Name of the upgrade player is buying
+  // {2} = New level the player is at for the upgrade
+  "Successfully purchase upgrade"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "{green}{1} {default}level {green}{2} {default}has been successfully purchased"
+    "de" "{green}{1} {default}level {green}{2} {default}wurde erfolgreich erworben"
+    "fr" "{green}{1} {default}niveau {green}{2} {default}a ete achete"
+    "no" "{green}{1} {default}nivå {green}{2} {default}har blitt kjøpt"
+    "se" "Du har kopt {green}{1} {default}niva {green}{2}"
+    "tr" "{green}{2} {default} seviyesindeki {green}{1} {default}basariyla satin alindi"
+    "hu" "Sikeresen megvetted a {green}{1}{default} {green}{2}{default}szinten"
+    "pl" "Kupiłeś {green}{1}{default} poziom {green}{2}{default}"
+    "ru" "{green}{1} {default}уровень {green}{2} {default}успешно куплен"
+    "dk" "{green}{1} {default}level {green}{2} {default}er blevet købt "
+    "nl" "{green}{1} {default}level {green}{2} {default}is succesvol gekocht"
+    "lv" "{green}{1} {default}līmenis {green}{2} {default}tika veiksmīgi nopirkts"
+  }
+  // {1} = Name of the upgrade player is trying to purchase
+  // {2} = Level of the upgrade player is trying to purchase
+  // {3} = Required amount of credits
+  "Not enough credits for upgrade"
+  {
+    "#format" "{1:s},{2:d},{3:d}"
+    "en" "You have an insufficient amount of credits to purchase {green}{1} {default}level {green}{2} {default}(Cost: {green}{3} {default}Credits)"
+    "de" "Du hast nicht ausreichend Credits um {green}{1} {default}level {green}{2} {default}(Cost: {green}{3} {default}Credits) zu erwerben"
+    "fr" "Vous n'avez pas assez de credits pour acheter {green}{1} {default}niveau {green}{2} {default}(Cout: {green}{3} {default}Credits)"
+    "no" "Du har ikke nok kreditt for å kjøpe {green}{1} {default}nivå {green}{2} {default}(koster: {green}{3} {default}kreditt)"
+    "se" "Du har inte rad att kopa {green}{1} {default}niva {green}{2} {default}(Pris: {green}{3} {default}Krediter)"
+    "tr" "{green}{2} {default}seviyesindeki {green}{1} {default}almak icin yeterli krediniz yok(Fiyat: {green}{3} {default}Kredi)"
+    "hu" "Nincs elegendő pontod, hogy megvedd a {green}{1}{default}, {green}{2}{default} szinten (Szükséges pont: {green}{3}{default})"
+    "pl" "Nie posiadasz wystarczającej ilości kredytów żeby kupić {green}{1}{default} poziom {green}{2}{default}(Koszt: {green}{3}{default} kredytów)"
+    "ru" "У Вас недостаточно кредитов для покупки {green}{1} {default}уровня {green}{2} {default}(Цена: {green}{3} {default}Кредитов)"
+    "dk" "Du har ikke nok kreditter til at købe {green}{1} {default}level {green}{2} {default}(koster: {green}{3} {default}krediter"
+    "nl" "Je hebt te weinig credits om te kopen{green}{1} {default}level {green}{2} {default}(Kosten: {green}{3} {default}Credits)"
+    "lv" "Tev nepietiek kredītu, lai nopirktu {green}{1} {default}līmeni {green}{2} {default}(Maksā: {green}{3} {default}Kredītus)"
+  }
+  // (Nothing)
+  "At max level for upgrade"
+  {
+    "en" "You have reached the maximum level for this item"
+    "de" "Du hast das maximale Level fuer dieses Upgrade erreicht"
+    "fr" "Vous avez atteint le niveau maximum pour cet article"
+    "no" "Du har nådd det maksimale nivået for denne varen"
+    "se" "Du har nått den högsta nivån för det här"
+    "tr" "Bu ogenin son seviyesine ulastiniz"
+    "hu" "Ennek a képességnek elérted a maximális fejleszthetőségét"
+    "pl" "Posiadasz już maksymalny poziom tego dodatku"
+    "ru" "У вас максимальный уровень этого навыка"
+    "dk" "Du har nået det maximum level for denne ting"
+    "nl" "Je hebt het maximale level gehaald voor dit item"
+    "lv" "Tev jau ir maksimālais līmenis šim uzlabojumam"
+  }
+  // {1} = Upgradename
+  // {2} = Upgradelevel
+  // {3} = Credits for sell
+  "Sell upgrade"
+  {
+    "#format" "{1:s},{2:d},{3:d}"
+    "en" "{green}{1} {default}level {green}{2} {default}has been successfully sold for {3} credits"
+    "de" "{green}{1} {default}level {green}{2} {default}wurde erfolgreich fuer {3} Credits verkauft"
+    "fr" "{green}{1} {default}niveau {green}{2} {default}a ete vendu pour {3} credits"
+    "no" "{green}{1} {default}nivå {green}{2} {default}har blitt solgt for {3} kreditt"
+    "se" "Du har salt {1} {default}niva {green}{2} {default}for {3} krediter"
+    "tr" "{green}{2} {default}seviyesindeki {green}{1} {default}{3} krediye basariyla satildi"
+    "hu" "Sikeresen eladtad a {green}{1}{default} ami {green}{2}{default} szinten volt és kaptál érte {3} pontot"
+    "pl" "{green}{1}{default} poziom {green}{2}{default} został pomyślnie sprzedany za {3} kredytów"
+    "ru" "{green}{1} {default}уровень {green}{2} {default}был продан за {3} кредитов"
+    "dk" "{green}{1} {default}level {green}{2} {default}er blevet solgt for{3}krediter"
+    "nl" "{green}{1} {default}level {green}{2} {default}Is succesvol verkocht voor {3} credits"
+    "lv" "{green}{1} {default}līmenis {green}{2} {default}tika veiksmīgi pārdots par {3} kredītiem"
+  }
+  // (Nothing)
+  "Upgrade is interlocked"
+  {
+    "en" "This upgrade is interlocked"
+    "de" "Dieses Upgrade ist gesperrt"
+    "fr" "Cette upgrade est verrouillé"
+    "no" ""
+    "se" ""
+    "tr" ""
+    "hu" ""
+    "pl" ""
+    "ru" "Этот навык заблокирован"
+    "dk" ""
+    "nl" ""
+    "lv" "Šis uzlabojums ir bloķēts"
+  }
+  // (Nothing)
+  "Admin XP syntax"
+  {
+    "en" "Syntax: thc_rpg_xp <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "de" "Syntax: thc_rpg_xp <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "se" "Syntax: thc_rpg_xp <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "hu" "Paraméterek: thc_rpg_xp <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "pl" "Syntax: thc_rpg_xp <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "ru" "Syntax: thc_rpg_xp <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "lv" "Sintakse: thc_rpg_xp <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+  }
+  // (Nothing)
+  "Admin level syntax"
+  {
+    "en" "Syntax: thc_rpg_level <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "de" "Syntax: thc_rpg_level <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "se" "Syntax: thc_rpg_level <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "hu" "Paraméterek: thc_rpg_level <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "pl" "Syntax: thc_rpg_level <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "ru" "Syntax: thc_rpg_level <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "lv" "Sintakse: thc_rpg_level <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+  }
+  // (Nothing)
+  "Admin credits syntax"
+  {
+    "en" "Syntax: thc_rpg_credits <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "de" "Syntax: thc_rpg_credits <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "se" "Syntax: thc_rpg_credits <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "hu" "Paraméterek: thc_rpg_credits <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "pl" "Syntax: thc_rpg_credits <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "ru" "Syntax: thc_rpg_credits <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+    "lv" "Sintakse: thc_rpg_credits <set/=/add/+/take/-> <@all/@t/@ct/@userid/playername> <amount>"
+  }
+  // (Nothing)
+  "Admin force purchase syntax"
+  {
+    "en" "Syntax: thc_rpg_forcepurchase <@all/@t/@ct/@userid/playername> <upgrade>"
+    "de" "Syntax: thc_rpg_forcepurchase <@all/@t/@ct/@userid/playername> <upgrade>"
+    "se" "Syntax: thc_rpg_forcepurchase <@all/@t/@ct/@userid/playername> <upgrade>"
+    "hu" "Paraméterek: thc_rpg_forcepurchase <@all/@t/@ct/@userid/playername> <upgrade>"
+    "pl" "Syntax: thc_rpg_forcepurchase <@all/@t/@ct/@userid/playername> <upgrade>"
+    "ru" "Syntax: thc_rpg_forcepurchase <@all/@t/@ct/@userid/playername> <upgrade>"
+    "lv" "Sintakse: thc_rpg_forcepurchase <@all/@t/@ct/@userid/playername> <upgrade>"
+  }
+  // (Nothing)
+  "Admin force sell syntax"
+  {
+    "en" "Syntax: thc_rpg_forcesell <@all/@t/@ct/@userid/playername> <upgrade>"
+    "de" "Syntax: thc_rpg_forcesell <@all/@t/@ct/@userid/playername> <upgrade>"
+    "se" "Syntax: thc_rpg_forcesell <@all/@t/@ct/@userid/playername> <upgrade>"
+    "hu" "Paraméterek: thc_rpg_forcesell <@all/@t/@ct/@userid/playername> <upgrade>"
+    "pl" "Syntax: thc_rpg_forcesell <@all/@t/@ct/@userid/playername> <upgrade>"
+    "ru" "Syntax: thc_rpg_forcesell <@all/@t/@ct/@userid/playername> <upgrade>"
+    "lv" "Sintakse: thc_rpg_forcesell <@all/@t/@ct/@userid/playername> <upgrade>"
+  }
+  "Admin set XP"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "You have set {1}'s XP to {2}"
+    "de" "Du hast {1}'s XP auf {2} gesetzt"
+    "se" "Du har andrat {1}'s XP till {2}"
+    "hu" "Beállítottad {1} játékos tapasztalati pontját erre: {2}"
+    "pl" "Ustawiłeś {2} punktów doświadczenia graczowi {1}"
+    "ru" "Вы установили XP {1} на {2}"
+    "no" "Du har satt {1}'s XP til {2}"
+    "dk" "Du har sat {1}'s xp til {2}"
+    "nl" "Je hebt {1}'s xp naar {2} gezet"
+    "lv" "Tu esi uzlicis {2} XP spēlētājam {1}"
+  }
+  "Admin set level"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "You have set {1}'s level to {2}"
+    "de" "Du hast {1}'s Level auf {2} gesetzt"
+    "se" "Du har andrat {1}'s niva till {2}"
+    "hu" "Beállítottad {1} játékos szintjét erre: {2}"
+    "pl" "Ustawiłeś {2} poziom graczowi {1}"
+    "ru" "Вы установили уровень {1} на {2}"
+    "no" "Du har satt {1}'s nivå til {2}"
+    "dk" "Du har sat {1}'s level til {2}"
+    "nl" "Je hebt {1}'s level gezet op {2}"
+    "lv" "Tu esi uzlicis {2} līmeni spēlētājam {1}"
+  }
+  "Admin set credits"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "You have set {1}'s credits to {2}"
+    "de" "Du hast {1}'s Credits auf {2} gesetzt"
+    "se" "Du har andrat {1}'s krediter till {2}"
+    "hu" "Beállítottad {1} játékos pontját erre: {2}"
+    "pl" "Ustawiłeś {2} kredytów graczowi {1}"
+    "ru" "Вы установили кредиты {1} на {2}"
+    "no" "Du har satt {1}'s kreditt til {2}"
+    "dk" "Du har sat {1}'s krediter til {2}"
+    "nl" "Je hebt {1} credits gezet op {2}"
+    "lv" "Tu esi uzlicis {2} kredītus spēlētājam {1}"
+  }
+  "Admin force purchase"
+  {
+    "#format" "{1:s},{2:s}"
+    "en" "You have forced {1} to purchase {2}"
+    "de" "Du hast {1} gezwungen, {2} zu erwerben"
+    "se" "Du har tvingat {1} att kopa {2}"
+    "hu" "Kötelezted {1} játékost arra, hogy vegye meg ezt: {2}"
+    "pl" "Zmusiłeś gracza {1} do kupienia {2}"
+    "ru" "Вы выбрали {1} для покупки {2}"
+    "no" "Du har tvunget {1} til å kjøpe {2}"
+    "dk" "Du har tvunget {1} til at købe {2}"
+    "nl" "Je hebt {1} gedwongen {2} te kopen"
+    "lv" "Tu esi piespiedis nopirkt {2} spēlētājam {1}"
+  }
+  "Admin force sell"
+  {
+    "#format" "{1:s},{2:s}"
+    "en" "You have forced {1} to sell {2}"
+    "de" "Du hast {1} gezwungen, {2} zu verkaufen"
+    "se" "Du har tvingat {1} att salja {2}"
+    "hu" "Kötelezted {1} játékost, hogy adja el ezt: {2}"
+    "pl" "Zmusiłeś gracza {1} do sprzedania {2}"
+    "ru" "Вы выбрали {1} для продажи {2}"
+    "no" "Du har tvingat {1} til å selge {2}"
+    "dk" "Du har tvunget {1} til at sælge {2}"
+    "nl" "Je hebt {1} gedwongen {2} te verkopen"
+    "lv" "Tu esi piespiedis pārdot {2} spēlētājam {1}"
+  }
+  "Admin XP has been set"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "{1} has set your XP to {2}"
+    "de" "{1} hat deine XP auf {2} gesetzt"
+    "se" "{1} har andrat din XP till {2}"
+    "hu" "{1} beállította a tapasztalati pontod erre: {2}"
+    "pl" "{1} zmienił ilość Twoich punktów doświadczenia na {2}"
+    "ru" "{1} установил ваши XP на {2}"
+    "no" "{1} har satt din XP til {2}"
+    "dk" "{1} har sat din xp til {2}"
+    "nl" "{1} heeft je xp gezet op {2}"
+    "lv" "{1} ir uzlicis tavu XP uz {2}"
+  }
+  "Admin level has been set"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "{1} has set your level to {2}"
+    "de" "{1} hat dein Level auf {2} gesetzt"
+    "se" "{1} har andrat din niva till {2}"
+    "hu" "{1} beállította a szinted erre: {2}"
+    "pl" "{1} zmienił Twój poziom na {2}"
+    "ru" "{1} установил ваш уровень на {2}"
+    "no" "{1} har satt ditt nivå til {2}"
+    "dk" "{1} har sat dit level til {2}"
+    "nl" "{1} heeft je level gezet op {2}"
+    "lv" "{1} ir uzlicis tavu līmeni uz {2}"
+  }
+  "Admin credits has been set"
+  {
+    "#format" "{1:s},{2:d}"
+    "en" "{1} has set your credits to {2}"
+    "de" "{1} hat deine Credits auf {2} gesetzt"
+    "se" "{1} har andrat dina krediter till {2}"
+    "hu" "{1} beállítottad a pontjaid számát erre: {2}"
+    "pl" "{1} zmienił ilość Twoich kredytów na {2}"
+    "ru" "{1} установил ваши кредиты на {2}"
+    "en" "{1} har satt din kreditt til {2}"
+    "dk" "{1} har sat dine kredits til {2}"
+    "nl" "{1} heeft je geld gezet op {2}"
+    "lv" "{1} ir uzlicis tavus kredītus uz {2}"
+  }
+  "Admin forced to purchase"
+  {
+    "#format" "{1:s},{2:s}"
+    "en" "{1} forced you to purchase {2}"
+    "de" "{1} hat dich gezwungen {2} zu erwerben"
+    "se" "{1} tvingade dig att kopa {2}"
+    "hu" "{1} kötelezi, hogy vedd meg ezt: {2}"
+    "pl" "{1} zmusił Cię do kupienia {2}"
+    "ru" "{1} выбрал Вас для покупки {2}"
+    "no" "{1} tvang deg til og kjøpe {2}"
+    "dk" "{1} har tvunget dig til at købe {2}"
+    "nl" "{1} heeft je gedwongen te kopen {2}"
+    "lv" "{1} piespieda tev nopirkt {2}"
+  }
+  "Admin forced to sell"
+  {
+    "#format" "{1:s},{2:s}"
+    "en" "{1} forced you to sell {2}"
+    "de" "{1} hat dich gezwungen {2} zu verkaufen"
+    "se" "{1} tvingade dig att salja {2}"
+    "hu" "{1} kötelezi, hogy add el ezt: {2}"
+    "pl" "{1} zmusił Cię do sprzedania {2}"
+    "ru" "{1} Выбрал вас для продажи {2}"
+    "no" "{1} tvang deg til og selge {2}"
+    "dk" "{1} har tvunget dig til at sælge {2}"
+    "nl" "{1} heeft je gedwongen te verkopen {2}"
+    "lv" "{1} piespieda tev pārdot {2}"
+  }
+  // (Nothing)
+  "Admin invalid player"
+  {
+    "en" "There is no such player on the server"
+    "de" "Es gibt keinen solchen Spieler auf diesem Server"
+    "se" "Det finns ingen san spelare pa servern"
+    "hu" "Nincs ilyen játékos a szerveren"
+    "pl" "Nie ma takiego gracza na serwerze"
+    "ru" "На сервере нету такого игрока"
+    "no" "Spillern du leter etter er ikke på servern"
+    "dk" "Spilleren du leder efter er ikke på den her server"
+    "nl" "Die speler is niet op de server"
+    "lv" "Nav tāda spēlētāja serverī"
+  }
+  // (Nothing)
+  "Admin invalid upgrade"
+  {
+    "en" "There is no such upgrade currently loaded, to see list, type rpgmenu and choose Upgrades"
+    "de" "Dieses Upgrade ist aktuell nicht geladen, um die Liste anzuzeigen, tippe rpgmenu und waehle Upgrades"
+    "se" "Det finns ingen san upgrade. For att se en lista, skriv: rpgmenu och valj upgradear"
+    "hu" "Jelenleg nincs upgrade betöltve, hogy megnézd a listát írd be, hogy rpgmenu és váléaszd ki a 'Fejlezstések' menüpontot"
+    "pl" "Ten dodatek jest niedostępny, żeby zobaczyć liste wpisz rpgmenu i wybierz Dodatki"
+    "ru" "Такого апгрейда не загружено, посмотрите лист, прописав rpgmenu и выбрав Upgrades"
+    "no" "Det finnes ingen slik oppgradering, for å se listen, skriver rpgmenu og velge oppgraderinger"
+    "dk" "Der er ikk nogle opgradering, for at se liste, skriv rpgmenu og så vælg opgraderinger"
+    "nl" "Die upgrade is niet op dit moment niet geladen, voor een lijst, typ rpgmenu en kies de upgrades"
+    "lv" "Nav šobrīd ielādēta tāda uzlabojuma, lai apskatītu sarakstu ar uzlabojumiem, raksti rpgmenu Un izvēlies Uzlabojumi"
+  }
+  // {1} = Amount of XP gained
+  // {2} = New current XP
+  // {3} = New XP quota, XP required to level up
+  "Give XP"
+  {
+    "#format" "{1:d},{2:d},{3:d}"
+    "en" "XP Gained: {1} - XP Quota: {2}/{3}"
+    "de" "XP gewonnen: {1} - XP Quota: {2}/{3}"
+    "fr" "XP gagne: {1} - XP Quota: {2}/{3}"
+    "no" "XP fått: {1} - XP kvote: {2}/{3}"
+    "se" "XP Intjanad: {1} - XP Quota: {2}/{3}"
+    "tr" "XP Kazandiniz: {1} - XP Kotasi: {2}/{3}"
+    "hu" "XP szerzés: {1} - XP hányados: {2}/{3}"
+    "pl" "Zdobyłeś {1} punktów doświadczenia - posiadasz {2}/{3}"
+    "ru" "XP Получены: {1} - XP Квота: {2}/{3}"
+    "dk" "XP fået {1} - XP  kvote: {2}/{3}"
+    "nl" "XP gekregen {1} - XP Quotum: {2}/{3}"
+    "lv" "XP Iegūti: {1} - XP Kopā: {2}/{3}"
+  }
+  // {1} = Amount of XP lost
+  // {2} = New current XP
+  // {3} = New XP quota, XP required to level up
+  "Take XP"
+  {
+    "#format" "{1:d},{2:d},{3:d}"
+    "en" "XP Taken: {1} - XP Quota: {2}/{3}"
+    "de" "XP genommen: {1} - XP Quota: {2}/{3}"
+    "fr" "XP pris: {1} - XP Quota: {2}/{3}"
+    "no" "XP tatt: {1} - XP kvote: {2}/{3}"
+    "se" "XP Forlorad: {1}- XP Quota: {2}/{3}"
+    "tr" "XP Alindi: {1} - XP Kotasi: {2}/{3}"
+    "hu" "XP vesztés: {1} - XP hányados: {2}/{3}"
+    "pl" "Straciłeś {1} punktów doświadczenia - posiadasz {2}/{3}"
+    "ru" "XP Отняты: {1} - XP Квота: {2}/{3}"
+    "dk" "XP taget: {1} - XP kvote: {2}/{3}"
+    "nl" "XP genomen: {1} - XP Quotum: {2}/{3}"
+    "lv" "XP Paņemti: {1} - XP Kopā: {2}/{3}"
+  }
+  // {1} = Plugin version
+  "Advert"
+  {
+    "#format" "{1:s}"
+    "en" "This server is running {green}[THC RPG] v{1}"
+    "de" "Auf diesem Server läuft {green}[THC RPG] v{1}"
+    "fr" "Ce serveur est en cours d'exécution {green}[THC RPG] v{1}"
+    "no" "Denne serveren kjører {green}[THC RPG] v{1}"
+    "se" "Den här servern är igång {green}[THC RPG] v{1}"
+    "tr" "Bu sunucu çalışıyor {green}[THC RPG] v{1}"
+    "hu" "Ez a szerver fut {green}[THC RPG] v{1}"
+    "pl" "Ten serwer jest uruchomiony {green}[THC RPG] v{1}"
+    "ru" "Этот сервер работает {green}[THC RPG] v{1}"
+    "dk" "Den her server kører {green}[THC RPG] v{1}"
+    "nl" "Deze server gebruikt {green}[THC RPG] v{1}"
+    "lv" "Šis serveris izmanto {green}[THC RPG] v{1}"
+  }
+}

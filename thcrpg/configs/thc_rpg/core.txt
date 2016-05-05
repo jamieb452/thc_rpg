@@ -1,0 +1,59 @@
+// Total HardCore RPG by ArsiRC CS:GO Edit by TumTum
+// core config file
+//
+// maxlevel = (exp_max - exp_start) / exp_inc
+//
+"thc_rpg"
+{
+  "core"
+  {
+    "admin_flags"      "q"       // set the admin flags that can access all admin functions
+                                 // you can also use multiple flags seperated by ,
+    "vip_flags"        "q,r"     // set the admin flags that can access the vip menu
+                                 // you can also use multiple flags seperated by ,
+    "bot_enable"       "0"       // allows bots to earn upgrades
+    "bot_control"      "1"       // stops bots from leveling when no humans are present
+    "bot_maxlevel"     "499"     // maximum level of a bot until his stats are reset (0 = infinite)
+    "exp_max"          "50000"   // required xp stops rising when getting to this point
+    "exp_start"        "100"     // initial required xp
+    "exp_inc"          "100"     // how much to increment required xp by after leveling up
+    "exp_kill"         "5"       // xp for a kill multiplied by levelratio (victim/attacker)
+	"max_exp_kill"     "0"		 // maximum xp players can get for a kill (0 = infinite)
+    "exp_headshot"     "25"      // extra xp for a headshot
+    "exp_damage"       "0.25"    // percentage of damage done for hurting an enemy
+                                 // 0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+    "exp_knifedmg"     "0.50"    // percentage of damage done for knifing an enemy (should be higher than exp_damage)
+                                 // 0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+    "exp_objectives"   "1"       // set to 1 if players get xp for objectives (bombplanted, bombdefused, bombexploded, hostagerescuing)
+    "exp_mode"         "0"       // set to 1 if players get static xp instead of percantage for teamwin and objectives
+                                 // if exp_mode is 1 you can set all below "exp_" parameter to the amount of xp a player gain for achieving those
+    "exp_teamwin"      "0.1"     // percentage of teamratio*frags or static xp given to alive players of a team for completing the objective
+                                 // exp_mode = 0 ->   0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+                                 // exp_mode = 1 ->   0.0 = 0 XP; 5.0 = 5 XP; 5.5 = 5 XP; 10.0 = 10 XP
+    "exp_bombplanted"  "0.1"     // percentage of teamratio*frags or static xp given for planting the bomb
+                                 // exp_mode = 0 ->   0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+                                 // exp_mode = 1 ->   0.0 = 0 XP; 5.0 = 5 XP; 5.5 = 5 XP; 10.0 = 10 XP
+    "exp_bombdefused"  "0.2"     // percentage of teamratio*frags or static xp given for defusing the bomb
+                                 // exp_mode = 0 ->   0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+                                 // exp_mode = 1 ->   0.0 = 0 XP; 5.0 = 5 XP; 5.5 = 5 XP; 10.0 = 10 XP
+    "exp_bombexploded" "0.2"     // percentage of teamratio*frags or static xp given to the bomb planter when it explodes
+                                 // exp_mode = 0 ->   0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+                                 // exp_mode = 1 ->   0.0 = 0 XP; 5.0 = 5 XP; 5.5 = 5 XP; 10.0 = 10 XP
+    "exp_hostage"      "0.1"     // percentage of teamratio*frags or static xp given for rescuing a hostage
+                                 // exp_mode = 0 ->   0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+                                 // exp_mode = 1 ->   0.0 = 0 XP; 5.0 = 5 XP; 5.5 = 5 XP; 10.0 = 10 XP
+    "credits_inc"      "5"       // how many credits earned for each time a player levels up
+    "credits_start"    "5"       // how many credits a player starts with
+    "save_percent"     "0.75"    // percentage of credits a player gets for selling an item
+                                 // 0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+    "advert"           "1"       // enable or disable the plugin advert
+    "announcements"    "1"       // enable or disable plugin announcements (level up, earn xp)
+    "freeforall"       "0"       // enable or disable "freeforall" mode
+    "maxspawnhp"       "100"     // max spawn hp - it is the basement for further calculations of health upgrades
+    // set "sound_*" to "off" to disable the playback if you want to have custom sounds or player dl, add this rules below to downloads.txt or change it with your sounds(DL PLUGIN)!
+    "sound_error"      "buttons/combine_button2.wav"
+    "sound_reset"      "buttons/button5.wav"
+    "sound_purchase"   "buttons/button9.wav"
+    "sound_sell"       "buttons/combine_button1.wav"
+  }
+}

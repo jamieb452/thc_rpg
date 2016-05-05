@@ -1,0 +1,26 @@
+// Total HardCore RPG by ArsiRC
+// upgrade config file
+//
+"thc_rpg"
+{
+//
+// "disable":   disable upgrade
+// "teamlock":  disable the upgrade for the specified team
+//              0    enable the upgrade for all teams
+//              2    disable the upgrade for Terrorist team
+//              3    disable the upgrade for Counter-Terrorist team
+// "maxlevel":  the "maxlevel" that a client can purchase
+// "cost":      the starting "cost" of the upgrade
+// "icost":     how much the "cost" is incremented by each purchase
+//
+  "regen_armor"
+  {
+    "disable"          "0"
+    "teamlock"         "0"
+    "maxlevel"         "5"
+    "cost"             "5"
+    "icost"            "10"
+    "interval"         "2.0"     // the interval, in seconds, that a player regenerates health
+    "amount"           "1"       // amount of armor to regenerade per interval (multiplied by level)
+  }
+}

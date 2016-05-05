@@ -1,0 +1,27 @@
+// Total HardCore RPG by ArsiRC
+// upgrade config file
+//
+"thc_rpg"
+{
+//
+// "disable":   disable upgrade
+// "teamlock":  disable the upgrade for the specified team
+//              0    enable the upgrade for all teams
+//              2    disable the upgrade for Terrorist team
+//              3    disable the upgrade for Counter-Terrorist team
+// "maxlevel":  the "maxlevel" that a client can purchase
+// "cost":      the starting "cost" of the upgrade
+// "icost":     how much the "cost" is incremented by each purchase
+//
+  "medic"
+  {
+    "disable"          "0"
+    "teamlock"         "0"
+    "effects"          "1"       // enable or disable graphic/sound effects
+    "maxlevel"         "5"
+    "cost"             "15"
+    "icost"            "20"
+    "interval"         "2.0"     // the interval, in seconds, that the player heals teammates
+    "amount"           "1"       // amount of hp to regenerade per interval (multiplied by level)
+  }
+}

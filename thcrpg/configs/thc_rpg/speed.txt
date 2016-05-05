@@ -1,0 +1,26 @@
+// Total HardCore RPG by ArsiRC
+// upgrade config file
+//
+"thc_rpg"
+{
+//
+// "disable":   disable upgrade
+// "teamlock":  disable the upgrade for the specified team
+//              0    enable the upgrade for all teams
+//              2    disable the upgrade for Terrorist team
+//              3    disable the upgrade for Counter-Terrorist team
+// "maxlevel":  the "maxlevel" that a client can purchase
+// "cost":      the starting "cost" of the upgrade
+// "icost":     how much the "cost" is incremented by each purchase
+//
+  "speed"
+  {
+    "disable"          "0"
+    "teamlock"         "0"
+    "maxlevel"         "6"
+    "cost"             "10"
+    "icost"            "10"
+    "percent"          "0.05"    // the percentage of speed added to player (multiplied by level)
+                                 // 0.0 - 1.0 = 0-100%; 0.05 = 5%; 0.5 = 50%; 0.75 = 75%
+  }
+}
